@@ -20,21 +20,25 @@
         }
         if(check==0)
         {
-            if(sum[0]>sum[1] && sum[0]>sum[2] && sum[0]>sum[3])
+            if(sum[0]>sum[1] && sum[0]>sum[2] && sum[0]>sum[3] && sum[0]>sum[4])
             {
                 printf("1 %d",sum[0]);
             }
-            else if(sum[1]>sum[0] && sum[1]>sum[2] && sum[0]>sum[3])
+            else if(sum[1]>sum[0] && sum[1]>sum[2] && sum[1]>sum[3] && sum[1]>sum[4])
             {
                 printf("2 %d",sum[1]);
             }
-            else if(sum[2]>sum[0] && sum[2]>sum[1] && sum[2]>sum[3])
+            else if(sum[2]>sum[0] && sum[2]>sum[1] && sum[2]>sum[3] && sum[2]>sum[4])
             {
                 printf("3 %d",sum[2]);
             }
-            else if(sum[3]>sum[0] && sum[3]>sum[1] && sum[3]>sum[2])
+            else if(sum[3]>sum[0] && sum[3]>sum[1] && sum[3]>sum[2] && sum[3]>sum[4])
             {
                 printf("4 %d",sum[3]);
+            }
+            else if(sum[4]>sum[0] && sum[4]>sum[1] && sum[4]>sum[2] && sum[4]>sum[3])
+            {
+                printf("5 %d",sum[4]);
             }
         }
 
