@@ -17,11 +17,11 @@
                     i++;
                 }
                 p++;
-                if(check==3)
+                if(p>n)
                 {
                     break;
                 }
-                if(p>n)
+                if(check==3)
                 {
                     break;
                 }
