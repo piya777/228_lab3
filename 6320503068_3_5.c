@@ -7,7 +7,7 @@
         int nold=n;
         if(n>0 && n<10000)
         {
-            while(n>1)
+            while(n>0)
             {
                 if(n%p==0)
                 {
@@ -21,12 +21,19 @@
                 {
                     break;
                 }
+                if(p>n)
+                {
+                    break;
+                }
             }
             if(prime[0]!=0 && prime[1]!=0 && prime[2]!=0)
             {
                 printf("%d is a Lucky Number.",nold);
             }
-
+            else
+            {
+                printf("%d is not a Lucky Number.",nold);
+            }
         }
 
     }
