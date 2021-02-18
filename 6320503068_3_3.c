@@ -15,13 +15,10 @@
             {
                 i++;
             }
-            if(k==0)
+            if(k==1)
             {
-                check++;
-            }
-            if(check==2)
-            {
-                printf("0");
+                k--;
+                printf("%d",k);
                 break;
             }
         }
